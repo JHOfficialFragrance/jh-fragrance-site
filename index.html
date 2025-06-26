@@ -88,24 +88,31 @@
       font-weight: bold;
       cursor: pointer;
     }
+    .contact {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .contact h2 {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
     <div style="font-size: 20px;">JH OFFICIAL</div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
+  <section id="home" class="hero">
     <h1>SMELL LIKE LUXURY FOR LESS</h1>
     <p>Same top-tier fragrances at a fraction of the cost</p>
-    <button>SHOP NOW</button>
+    <a href="#shop"><button>WANT IT? CLICK HERE</button></a>
   </section>
 
-  <section class="catalog">
+  <section id="shop" class="catalog">
     <h2>AVAILABLE CATALOG</h2>
     <div class="brands">
       <span>CK</span><span>Kilian</span><span>Moschino</span><span>Carolina</span><span>Gucci</span>
@@ -136,6 +143,11 @@
       <h3>CODE<br>by Armani</h3>
       <button>SHOP NOW</button>
     </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>DM us on Instagram and Threads @jh.officialfragrance to order>
   </section>
 </body>
 </html>
